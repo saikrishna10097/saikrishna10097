@@ -18,5 +18,23 @@
 
 
 
-</body>
-</html> 
+body{
+    background-color:bisque;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header > img{
+
+    object-fit: contain;
+    height:60px;
+}
+
+.header> h1{
+    padding-top: 10px;
+    font-family: Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 800;
